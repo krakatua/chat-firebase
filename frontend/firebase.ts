@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+    apiKey: "AIzaSyB3c2gnR6iwxN6fzyM2PScd8Y8__kXk5JA",
+  authDomain: "chat-app-35f79.firebaseapp.com",
+  projectId: "chat-app-35f79",
+  storageBucket: "chat-app-35f79.appspot.com",
+  messagingSenderId: "751185218132",
+  appId: "1:751185218132:web:da9f7f19983b0a61457bc1",
 };
 
 export const app = initializeApp(firebaseConfig);
